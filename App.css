@@ -1,0 +1,66 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --font-sans: Switzer, system-ui, sans-serif;
+  --radius-4xl: 2rem;
+}
+
+@keyframes move-x {
+  0% {
+    transform: translateX(var(--move-x-from));
+  }
+  100% {
+    transform: translateX(var(--move-x-to));
+  }
+}
+
+/* Additional styles for the calculator */
+.calculator-toggle {
+  background: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-toggle button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.calculator-toggle button.active {
+  background: white;
+  color: black;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.calculator-toggle button:not(.active) {
+  color: #6b7280;
+}
+
+.calculator-toggle button:not(.active):hover {
+  color: #374151;
+}
+
+.roi-result {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pipeline-result {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
