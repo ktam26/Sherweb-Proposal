@@ -119,13 +119,13 @@ function SherWebProposal() {
               <div className="p-8 bg-green-50 rounded-lg border border-green-200">
                 <TertiaryHeading as="h3" className="text-lg mb-6">SherWeb Sends:</TertiaryHeading>
                 <div className="bg-white p-8 rounded border text-base text-gray-700 leading-relaxed">
-                  "Hey [Name],<br/><br/>
-                  I noticed [Company] is expanding operations across multiple locations and likely evaluating cloud infrastructure options.<br/><br/>
-                  We work with certified Microsoft partners who've helped similar healthcare organizations reduce IT costs by 30% while improving HIPAA compliance. One of our partners recently migrated a 500-user clinic to Azure in just 3 weeks.<br/><br/>
-                  Would it make sense to connect you with the right Microsoft specialist for your specific needs?<br/><br/>
+                  "Hey Sarah,<br/><br/>
+                  Saw Memorial Healthcare's acquiring the three Cedar Ridge facilities - with 1,400 new employees, your IT team must be swamped integrating Meditech with Epic.<br/><br/>
+                  We work with a Microsoft partner who just handled this exact Meditech-Epic bridge for Riverside Health (8-hospital network). Cut integration from 6 months to 11 weeks.<br/><br/>
+                  Since you mentioned at HIMSS that Q3 integration was critical for merger financing, worth connecting you with them?<br/><br/>
                   Best,"
                 </div>
-                <p className="text-green-600 text-base mt-4">Result: Customer-focused messaging that generates qualified leads for partners</p>
+                <p className="text-green-600 text-base mt-4">Result: Deep research creates instant credibility and qualified meetings</p>
               </div>
             </div>
           </div>
