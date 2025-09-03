@@ -277,10 +277,6 @@ function SherWebProposal() {
                     </li>
                     <li className="flex items-center">
                       <CheckCircle className="h-5 w-5 text-green-400 mr-3 flex-shrink-0" />
-                      <span>All-inclusive: $1.05/sequence</span>
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-5 w-5 text-green-400 mr-3 flex-shrink-0" />
                       <span>Monthly strategy reviews</span>
                     </li>
                   </ul>
