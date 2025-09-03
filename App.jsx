@@ -34,11 +34,11 @@ function SherWebProposal() {
                 </Lead>
               </div>
 
-              {/* Partner Channel Excellence */}
+              {/* Customer Outreach Excellence */}
               <div className="bg-white border border-gray-100 rounded-2xl p-8 sm:p-12 mb-12 shadow-lg">
                 <div className="flex items-center justify-center mb-8 flex-wrap">
                   <Target className="h-6 w-6 text-blue-500 mr-2" />
-                  <SecondaryHeading as="h2" className="text-center">Partner Channel Acceleration at Scale</SecondaryHeading>
+                  <SecondaryHeading as="h2" className="text-center">Customer Lead Generation at Scale</SecondaryHeading>
                 </div>
                 <div className="grid md:grid-cols-2 gap-6 sm:gap-12">
                   <div className="bg-red-50 p-6 sm:p-8 border border-red-200 rounded-xl shadow-sm">
@@ -46,19 +46,19 @@ function SherWebProposal() {
                     <ul className="space-y-3 sm:space-y-5 text-gray-700 leading-relaxed">
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-red-500 mr-2 sm:mr-3 mt-1">❌</span>
-                        <span>Template messages to potential partners</span>
+                        <span>Template messages to potential customers</span>
                       </li>
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-red-500 mr-2 sm:mr-3 mt-1">❌</span>
-                        <span>Can't speak to specific industry needs</span>
+                        <span>Can't speak to specific business challenges</span>
                       </li>
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-red-500 mr-2 sm:mr-3 mt-1">❌</span>
-                        <span>Partner decisions need credibility - generic destroys it</span>
+                        <span>Customers need tailored solutions - generic fails</span>
                       </li>
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-red-500 mr-2 sm:mr-3 mt-1">❌</span>
-                        <span>Your partner network stays stagnant</span>
+                        <span>Your partners' pipelines stay empty</span>
                       </li>
                     </ul>
                   </div>
@@ -75,7 +75,7 @@ function SherWebProposal() {
                       </li>
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-green-500 mr-2 sm:mr-3 mt-1">✅</span>
-                        <span>Builds trust through relevant partner insights</span>
+                        <span>Builds trust through relevant business insights</span>
                       </li>
                       <li className="flex items-start text-sm sm:text-base">
                         <span className="text-green-500 mr-2 sm:mr-3 mt-1">✅</span>
@@ -109,23 +109,23 @@ function SherWebProposal() {
                 <TertiaryHeading as="h3" className="text-lg mb-6">Generic Competitors Send:</TertiaryHeading>
                 <div className="bg-white p-8 rounded border text-base text-gray-600 italic leading-relaxed">
                   "Hello [Name],<br/><br/>
-                  I hope this email finds you well. I wanted to reach out regarding potential partnership opportunities.<br/><br/>
-                  We work with technology companies to expand their reach and grow their business. We offer various partner programs and reseller opportunities.<br/><br/>
-                  Would you be interested in learning more about becoming a partner?"
+                  I hope this email finds you well. I wanted to reach out regarding your IT infrastructure needs.<br/><br/>
+                  We work with businesses to provide Microsoft solutions. We have various cloud and software options available.<br/><br/>
+                  Would you be interested in learning more about our services?"
                 </div>
-                <p className="text-red-600 text-base mt-4">Result: Generic partner outreach - zero relevance or credibility</p>
+                <p className="text-red-600 text-base mt-4">Result: Generic sales pitch - no personalization or value</p>
               </div>
 
               <div className="p-8 bg-green-50 rounded-lg border border-green-200">
                 <TertiaryHeading as="h3" className="text-lg mb-6">SherWeb Sends:</TertiaryHeading>
                 <div className="bg-white p-8 rounded border text-base text-gray-700 leading-relaxed">
                   "Hey [Name],<br/><br/>
-                  I noticed [Company] specializes in cloud migrations for healthcare organizations - exactly the type of expertise our Microsoft partner network needs.<br/><br/>
-                  As a channel partner, we help Microsoft Gold Partners like you accelerate growth. Our partners typically see 47 qualified leads in their first month, with 6+ converting to enterprise deals.<br/><br/>
-                  Does it make sense to discuss how SherWeb can drive pre-qualified opportunities directly to your sales team?<br/><br/>
+                  I noticed [Company] is expanding operations across multiple locations and likely evaluating cloud infrastructure options.<br/><br/>
+                  We work with certified Microsoft partners who've helped similar healthcare organizations reduce IT costs by 30% while improving HIPAA compliance. One of our partners recently migrated a 500-user clinic to Azure in just 3 weeks.<br/><br/>
+                  Would it make sense to connect you with the right Microsoft specialist for your specific needs?<br/><br/>
                   Best,"
                 </div>
-                <p className="text-green-600 text-base mt-4">Result: Partner-specific value props with proven channel success</p>
+                <p className="text-green-600 text-base mt-4">Result: Customer-focused messaging that generates qualified leads for partners</p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ function SherWebProposal() {
               <SecondaryHeading as="h2" className="text-yellow-800">The Competition is Already Moving</SecondaryHeading>
             </div>
             <p className="text-lg sm:text-xl text-yellow-800 text-center mb-6 leading-relaxed">
-              <strong>Get ahead by speaking to what matters: specific partner needs, vertical expertise, and proven success metrics.</strong>
+              <strong>Get ahead by speaking to what matters: specific customer needs, industry challenges, and proven solutions.</strong>
             </p>
             <p className="text-base sm:text-lg text-yellow-700 text-center leading-relaxed">
               Without this level of personalization, you're just another reseller in their inbox. 
@@ -155,15 +155,15 @@ function SherWebProposal() {
                   <TertiaryHeading as="h3" className="mb-6">Manual SDR Research Time</TertiaryHeading>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-3 sm:p-4 bg-red-50 rounded-xl border border-red-200">
-                      <span className="text-red-700 text-sm sm:text-lg">Finding partner info:</span>
+                      <span className="text-red-700 text-sm sm:text-lg">Finding company info:</span>
                       <span className="font-bold text-red-800 text-sm sm:text-lg">10 minutes</span>
                     </div>
                     <div className="flex justify-between items-center p-3 sm:p-4 bg-red-50 rounded-xl border border-red-200">
-                      <span className="text-red-700 text-sm sm:text-lg">Identifying fit & expertise:</span>
+                      <span className="text-red-700 text-sm sm:text-lg">Identifying customer needs:</span>
                       <span className="font-bold text-red-800 text-sm sm:text-lg">15 minutes</span>
                     </div>
                     <div className="flex justify-between items-center p-3 sm:p-4 bg-red-50 rounded-xl border border-red-200">
-                      <span className="text-red-700 text-sm sm:text-lg">Crafting partner message:</span>
+                      <span className="text-red-700 text-sm sm:text-lg">Crafting personalized message:</span>
                       <span className="font-bold text-red-800 text-sm sm:text-lg">5 minutes</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-gray-100 rounded-xl border-2 border-gray-400">
@@ -174,7 +174,7 @@ function SherWebProposal() {
                 </div>
                 
                 <div>
-                  <TertiaryHeading as="h3" className="mb-6">For 3,000 Partner Leads</TertiaryHeading>
+                  <TertiaryHeading as="h3" className="mb-6">For 3,000 Customer Leads</TertiaryHeading>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-4 bg-red-50 rounded-xl border border-red-200">
                       <span className="text-red-700 text-sm sm:text-lg">Total time needed:</span>
